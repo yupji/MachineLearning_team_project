@@ -32,11 +32,13 @@
 1. LogisticRegression
 2. XGB
 3. LGBM
+- LGBM이 성능이 가장 좋았고, 학습시간도 빨랐음
 
 ### 스케일링
 1. 스케일링 하지 않음
 2. StandardScaler
 3. MinMaxScaler
+- MinMaxScale이 가장 성능이 좋았음
 
 ## 모델 성능 향상
 - 'Time' 피처 제거
@@ -44,4 +46,8 @@
   - Optuna 이용
 
 ### 최적 모델 선정
-- 3가지 모델과 3가지 스케일 방법을 사용한 결과, LGBM과 MinMaxScaler를 사용하는게 가장 성능이 좋았고 학습시간도 빨랐음
+- LGBM과 MinMaxScaler를 이용
+
+## 결과
+- 최종적으로 약 83%의 정확도를 얻을 수 있었음
+<img src="https://user-images.githubusercontent.com/125621591/229071188-2090ff3e-28d9-42a1-a426-d69623709f1d.png" width="500" height="200"/>
