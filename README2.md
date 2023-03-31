@@ -1,4 +1,4 @@
-# 목적
+# 🙌목적
 
 - Playground Series - Season 3, Episode 4 : 주어진 데이터 세트를 이용해 신용카드 사기 감지 예측
 - Playground Series - Season 3, Episode 2 : 주어진 데이터 세트를 이용해 뇌졸중 예측
