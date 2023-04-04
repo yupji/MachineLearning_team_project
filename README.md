@@ -60,12 +60,10 @@
 - Residence_type의 Urban과 Rural의 정답 비율이 같음
   - Residence_type 피처 제거
   
-### 명목형 분포도
-<img src="https://user-images.githubusercontent.com/125621591/229092234-3f908778-c005-4ed3-9ab0-263e909d8fec.png" width="500" height="400"/>
 
 ### 순서형 분포도
 <img src="https://user-images.githubusercontent.com/125621591/229092292-56011055-2867-4a61-a84b-fe57cfef590d.png" width="500" height="400"/>
-- 순서 부여
+- never somked -> unknown -> formerly smoked -> smokes로 순서 부여
 
 ## 베이스라인 모델 구축 및 기본학습
 - 결측치 대체, 피처값 대체, 순서 부여, 인코딩 수행
